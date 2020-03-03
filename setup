@@ -33,25 +33,25 @@ echo "";
 (apt update && apt upgrade -y) &> /dev/null;
 (apt install axel figlet pv ncurses-utils binutils coreutils wget git proot termux-api tar procps grep -y) &> /dev/null;
 termux-wake-lock;
-if [ -e $PREFIX/share/figlet/Remo773.flf ]; then
-	echo -e "\e[1;34m[*] \033[32mRemo773.flf figlet font is present\033[0m";
+if [ -e $PREFIX/share/figlet/sanan9743.flf ]; then
+	echo -e "\e[1;34m[*] \033[32msanan9743.flf figlet font is present\033[0m";
 	sleep 2
 else
-wget https://raw.githubusercontent.com/remo7777/REMO773/master/Remo773.flf &> /dev/null;
+wget https://raw.githubusercontent.com/sananakther9740/sanan9743/master/sanan9743.flf &> /dev/null;
 sleep 2
-cat Remo773.flf >> $PREFIX/share/figlet/Remo773.flf
+cat sanan9743.flf >> $PREFIX/share/figlet/sanan9743.flf
 sleep 2
-rm Remo773.flf
+rm sanan9743.flf
 fi
 clear;
 echo "";
-echo -e "\033[33m$(figlet -f Remo773 "Apktool")\e[0m"
+echo -e "\033[33m$(figlet -f sanan9743 "Apktool")\e[0m"
 echo -e "\e[1;32m
 +--------------------------------------*/
-Remo773 : (\e[33m19.6.2019\e[32m)
+sanan9743 : (\e[33m19.6.2019\e[32m)
 1. Openjdk-8-jre (\e[33mBy \e[34mHax\e[31m4\e[34mus\e[32m)
-2. Apktool (\e[33mSetup By Remo773\e[32m)
-3. Bind-Apk (\e[34mV1.4 \e[35mBy Remo773\e[32m)
+2. Apktool (\e[33mSetup By sanan9743\e[32m)
+3. Bind-Apk (\e[34mV1.4 \e[35mBy sanan9743\e[32m)
 4. Signapk tool
 +--------------------------------------*/
 \033[0m";
@@ -143,7 +143,7 @@ else
 	echo -e "\e[1;34m[*] \e[32mThen try again..\e[0m";
 	exit
 fi
-cd ~/Termux-Apkt*;
+cd ~/T-apk-t*;
 rm -rf installjava
 termux-wake-unlock;
 fi
