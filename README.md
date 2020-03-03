@@ -3,9 +3,9 @@ This apktool is working with Hax4us openjdk-8-jre without any issue...
 *note : requirement -->> Metasploit-Framework*
 ## Installation...
 
-`git clone https://github.com/remo7777/Termux-Apktool/`
+`git clone https://github.com/sananakther9740/T-apk-tool/`
 
-`cd Termux-Apktool`
+`cd T-apk-tool`
 
 `bash setup`
 
